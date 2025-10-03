@@ -9,7 +9,7 @@
 
 <p>This example demonstrates how to select all products that are associated with a required category. The Product entity has the Category navigation property. To filter products by the category ID, we need to expand the Category property using the ODataStore.expand option. In this case, we will be able to access a key field of a navigation property. This example operates with the <a href="http://services.odata.org/Northwind/Northwind.svc/"><u>Northwind</u></a> online OData service. We can determine that Category is a navigation property of the Product one by typing the following URL in our browser "<a href="https://services.odata.org/Northwind/Northwind.svc/$metadata">https://services.odata.org/Northwind/Northwind.svc/$metadata</a>".</p>
 
-<div align="center"><img alt="ODataContext for DevExtreme - How to filter data by a foreign key value" src="odatacontext-filter-data-by-foreign-key-value.png" /></div>
+<div align="center"><img alt="ODataContext for DevExtreme - How to filter data by a foreign key value" src="images/odatacontext-filter-odata-by-foreign-key-value.png" /></div>
 
 ## Implementation Details
 
@@ -37,8 +37,8 @@ var viewModel = {
 ## Files to Review
 
 - **jQuery**
-    - [index.html](jQuery/index.html)
-    - [script.js](jQuery/script.js)
+    - [index.html](jQuery/src/index.html)
+    - [script.js](jQuery/src/script.js)
 
 ## Documentation
 
